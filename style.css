@@ -1,0 +1,118 @@
+*,
+::after,
+::before{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #1D3557;
+    background-color:lightcyan;
+}
+
+.container{
+    width: 720px;
+    margin: 0 auto;
+}
+
+.hero-title{
+    background-color: #1D3557;
+    padding: 5px 12px;
+    margin-bottom: 10px;
+}
+
+.hero-title, .hero-subtitle{
+    border-radius: 10px;
+}
+
+.hero-section{
+    height: 343px;
+    background-image: url("images/barcelona-seascape.jpg");
+    background-size: cover;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.hero-subtitle{
+    background-color: #457B9D;
+    padding: 5px 30px;
+    width: 355px;
+    text-align: center;
+}
+
+.activities-container{
+    background-color: #F1FAEE;
+    text-align: center;
+    padding: 40px;
+}
+
+.activities-section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.activity{
+    width: 190px;
+    margin: 0 25px;
+}
+
+.activity img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.activity h4{
+    margin: 20px 0;
+}
+
+.contact-card{
+    background-color:darksalmon;
+    padding: 50px 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.card-container{
+    width: 400px;
+    margin: 0px auto;
+    display: flex;
+    background-color: #A8DADC;
+    padding: 25px 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 6px #1D3557;
+}
+
+.card-img{
+    width: 180px;
+    border-radius: 10px;
+}
+
+.card-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+.card-text h2{
+    margin-bottom: 20px;
+}
+
+.card-text h4{
+    margin-top: 20px;
+}
+
+.card-text p{
+    font-style: italic;
+}
